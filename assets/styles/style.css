@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.cdnfonts.com/css/space-mono");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
+nav{
+    width: 133px;
+    height: 25px;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+.container_page{
+    margin: 10px;
+}
+.container_img{
+    width: 115%;
+    margin-top: 3em;
+}
+.content_img{
+    width: 100%;
+}
+.title_h1{
+    width: 115%;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    letter-spacing: -0.035em;
+    margin-bottom: .2em;
+}
+.desk_only{
+    display: none;
+}
+.detail_title{
+    width: 328px;
+    height: 81px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    margin-bottom: 1em;
+}
+.container_cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+    background: #333333;
+}
+.cta{
+    width: 130px;
+    height: 21px;
+    left: 67px;
+    top: 750px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+footer{
+    color: grey;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'montserrat';
+    text-align: center;
+}
+@media(min-width:768px){
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 7em;
+}
+.container_img{
+    width: 50%;
+}
+.desk_only{
+    display: block;
+}
+footer{
+    color: grey;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'montserrat';
+}
+}

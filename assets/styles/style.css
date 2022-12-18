@@ -90,11 +90,15 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-bottom: 7em;
 }
 .container_img{
     width: 50%;
 }
+.content_img{
+    width: 90%
+ }
 .desk_only{
     display: block;
 }
